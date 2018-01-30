@@ -1,4 +1,4 @@
-package mutation.main;
+package mutation.servelets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -39,7 +39,18 @@ public class MutationServelet extends HttpServlet {
         
         //Recuperar no banco a sequêcia e a família
         //Verificar no Banco se o aa original e a posição conferem na sequência
-        //...
+        //Calcular a conservação para ambos os aminoacidos
+        //Calcular uma mini rede de correlação contendo os resíduos envolvidos e seus vizinhos
+        //Verificar se há anotações relativas a sítio
+        //Recuperar estruturas e calcular distâncias para os sítios
+        //Gerar um mutante com o modeller
+        //Calcular área acessível ao solvente
+        //Verificar se existem webservices de predição de efeito de mutação
+        //Gerar relatórios
+        //Implantar sistema de filas
+        //Paralelamente implementar front-end e visualizações de dados
+        
+        
         
         
         
